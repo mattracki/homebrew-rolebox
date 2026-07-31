@@ -1,9 +1,9 @@
 cask "rolebox-app" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "5a63eb84128bb1be5686464b9665f9a8ea8577defeba91d8203738b349c44b00",
-         intel: "2fc5aa5d0d49a415b58566d228b7ca1607c59bf0152bd04f869dc67964e9e38b"
+  version "0.2.0"
+  sha256 arm:   "1154375651808ad1f5c5d74a651979b10cfc43c2a2b89c11970e02d7d708580a",
+         intel: "e6763aace90d8047308b010406ff308d5aace06deec45733451ba4faaf8c00fc"
 
   url "https://github.com/mattracki/rolebox/releases/download/v#{version}/Rolebox-macOS-#{arch}.zip"
   name "Rolebox"

@@ -1,8 +1,8 @@
 class Rolebox < Formula
   desc "Asdf-style profile manager for AI coding agents"
   homepage "https://github.com/mattracki/rolebox"
-  url "https://github.com/mattracki/rolebox/releases/download/v0.1.0/rolebox-0.1.0.tar.gz"
-  sha256 "fccdbf72a8e2eaa6da68c9f8383eb16a7fdc37ec0aa380c720f60c43c657c1e0"
+  url "https://github.com/mattracki/rolebox/releases/download/v0.2.0/rolebox-0.2.0.tar.gz"
+  sha256 "104af91c4e6280941d45a7146399d3ba928855d5247173c5519e084bc547c71e"
   license "MIT"
 
   depends_on "node"

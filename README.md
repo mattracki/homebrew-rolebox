@@ -17,3 +17,9 @@ brew install --cask mattracki/rolebox/rolebox-app
 
 The installable formula and cask are generated from the templates in this
 repository when a Rolebox release is published.
+
+To update both files for a published release and calculate its checksums, run:
+
+```sh
+scripts/update-release 0.2.0
+```
